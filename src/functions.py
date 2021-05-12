@@ -34,6 +34,10 @@ def getMatchDictionary(match_id):
     return json.loads(str(page_soup))
 
 
+def getPlayerNames(matchDictionary):
+    return [removeChars(matchDictionary["players"][i]["name"]) for i in range(len(matchDictionary["players"]))]
+
+
 def getPlayerInfo(matchDictionary, id):
     player = matchDictionary["players"][id]
 
@@ -53,6 +57,7 @@ def getPlayerInfo(matchDictionary, id):
 
 
 def createImages(match_id):
+    print(match_id)
     dic = getMatchDictionary(match_id)
 
     psApp = win32com.client.Dispatch("Photoshop.Application")
