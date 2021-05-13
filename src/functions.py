@@ -107,33 +107,11 @@ def getPlayerInfo(matchDictionary, id):
     }
 
 
-def getTeamLogos(matchDictionary):
-    url_radiant = matchDictionary["radiant_team"]["logo_url"]
-    url_dire = matchDictionary["dire_team"]["logo_url"]
-
-    for i, elem in enumerate([url_radiant, url_dire]):
-        if elem is None:
-            img = Image.open("data/team_logos/empty_logo.png")
-            img.save("data/team_logos/{}.png".format(i))
-        else:
-            response = requests.get(elem)
-            file = open("data/team_logos/{}.png".format(i), "wb")
-            file.write(response.content)
-            file.close()
-
-            desired_height = 180
-
-            img = Image.open("data/team_logos/{}.png".format(i))
-            img = img.resize(
-                (int(desired_height / img.size[1] * img.size[0]), desired_height),
-                Image.ANTIALIAS,
-            )
-            img.save("data/team_logos/{}.png".format(i))
-
-
 def convertSecToMin(seconds):
-    print(seconds)
-    return "{:02d}".format(seconds // 60) + ":" + "{:02d}".format(int(seconds % 60))
+    if seconds < 0:
+        return "00:00"
+    else:
+        return "{:02d}".format(seconds // 60) + ":" + "{:02d}".format(int(seconds % 60))
 
 
 def getItemTimings(player_dic):
@@ -146,18 +124,20 @@ def getItemTimings(player_dic):
             item_name = mapping[str(float(item_id))]
             if not item_name in ["aegis", "cheese", "refresher_shard"]:
                 time = player_dic["purchase_time"][item_name]
-                out.append((item_id, time))
+                out.append([item_id, time])
             else:
-                out.append((item_id, np.inf))
+                out.append([item_id, np.inf])
         else:
-            out.append((item_id, np.inf))
+            out.append([item_id, np.inf])
 
-    out.sort(key = lambda x: x[1])
-    print(out)
-    out = [(id, convertSecToMin(time)) for id, time in out]
+    out.sort(key=lambda x: x[1])
+    for i in range(len(out)):
+        if out[i][1] != np.inf:
+            out[i][1] = convertSecToMin(out[i][1])
+        else:
+            out[i][1] = "-"
 
-    print(out)    
-        
+    return out
 
 def createImages(match_dictionaries, games, players, player_names):
     if games == "All":
@@ -186,12 +166,26 @@ def createImages(match_dictionaries, games, players, player_names):
         "networth",
     ]
 
-    getTeamLogos(dics_to_iterate_over[0])
-    changeImage(doc, "team_logo_radiant", os.getcwd() + "/data/team_logos/0.png")
-    changeImage(doc, "team_logo_dire", os.getcwd() + "/data/team_logos/1.png")
+    team1, team2 = match_dictionaries[0]["radiant_team"]["name"].replace(" ", ""), match_dictionaries[0]["dire_team"]["name"].replace(" ", "")
+    if os.path.isfile(os.getcwd() + "/data/team_logos/{}.png".format(team1)):
+        changeImage(doc, "team_logo_1", os.getcwd() + "/data/team_logos/{}.png".format(team1))
+    else:
+        changeImage(doc, "team_logo_1", os.getcwd() + "/data/team_logos/empty_logo.png")
+
+    if os.path.isfile(os.getcwd() + "/data/team_logos/{}.png".format(team2)):
+        changeImage(doc, "team_logo_2", os.getcwd() + "/data/team_logos/{}.png".format(team2))
+    else:
+        changeImage(doc, "team_logo_2", os.getcwd() + "/data/team_logos/empty_logo.png")
+
+    doc.ArtLayers["team_1"].TextItem.contents = team1
+    doc.ArtLayers["team_2"].TextItem.contents = team2
 
     for i, game in enumerate(dics_to_iterate_over):
         doc.ArtLayers["matchID"].TextItem.contents = str(game["match_id"])
+        doc.ArtLayers["game"].TextItem.contents = games
+        doc.ArtLayers["duration"].TextItem.contents = (
+            convertSecToMin(match_dictionaries[int(games) - 1]["duration"]) + " MIN"
+        )
         for player in players_to_iterate_over:
             player_game_dic = getPlayerInfo(game, player)
 
@@ -205,18 +199,16 @@ def createImages(match_dictionaries, games, players, player_names):
                 os.getcwd() + "/data/hero_img/{}.png".format(player_game_dic["heroId"]),
             )
 
-            # # #change item images
-            # for j in range(6):
-            #     changeImage(
-            #         doc,
-            #         "item_{}".format(j + 1),
-            #         os.getcwd()
-            #         + "/data/item_img/{}.png".format(
-            #             player_game_dic["item{}".format(j)]
-            #         ),
-            #     )
-
-            getItemTimings(player_game_dic)
+            items = getItemTimings(player_game_dic)
+            for j in range(len(items)):
+                changeImage(
+                    doc,
+                    "item_{}".format(j + 1),
+                    os.getcwd() + "/data/item_img/{}.png".format(items[j][0]),
+                )
+                doc.ArtLayers["item_{}_time".format(j + 1)].TextItem.contents = str(
+                    items[j][1]
+                )
 
             doc.saveAs(
                 os.getcwd()

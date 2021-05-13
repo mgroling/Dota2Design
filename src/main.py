@@ -9,7 +9,7 @@ if __name__ == "__main__":
     # Dota2DesignInterface()
 
     # ["players"][0]["purchase_time"] ["dire_team"]["logo_url"]
-    dic = getMatchDictionary(5990966909)["players"][0]["item_usage"]
+    dic = getMatchDictionary(5950735072)["dire_team"]
 
     print(dic)
     # for key in dic.keys():
