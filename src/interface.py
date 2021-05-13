@@ -109,6 +109,8 @@ if __name__ == "__main__":
     Dota2DesignInterface()
     # df = pd.read_csv("data/items_id.csv", sep=";").to_numpy()
 
+    #xxxx
+
     # d = loadConfig("data/item_img/item_mapping.json")
     # d = {int(k): v for k, v in d.items()}
     # print(dic)

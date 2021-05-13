@@ -7,6 +7,7 @@ import photoshop.api as ps
 from photoshop import Session
 import requests
 import pandas as pd
+import numpy as np
 
 
 def saveConfig(path, dic):
@@ -131,7 +132,8 @@ def getTeamLogos(matchDictionary):
 
 
 def convertSecToMin(seconds):
-    return "{:02d}".format(seconds // 60) + ":" + "{:02d}".format(seconds % 60)
+    print(seconds)
+    return "{:02d}".format(seconds // 60) + ":" + "{:02d}".format(int(seconds % 60))
 
 
 def getItemTimings(player_dic):
@@ -142,11 +144,19 @@ def getItemTimings(player_dic):
         item_id = player_dic["item{}".format(i)]
         if item_id != 0:
             item_name = mapping[str(float(item_id))]
-        if not item_name in ["aegis", "cheese", "refresher_shard"]:
-            time = player_dic["purchase_time"][item_name]
-        out.append((item_id, convertSecToMin(time)))
+            if not item_name in ["aegis", "cheese", "refresher_shard"]:
+                time = player_dic["purchase_time"][item_name]
+                out.append((item_id, time))
+            else:
+                out.append((item_id, np.inf))
+        else:
+            out.append((item_id, np.inf))
 
-    
+    out.sort(key = lambda x: x[1])
+    print(out)
+    out = [(id, convertSecToMin(time)) for id, time in out]
+
+    print(out)    
         
 
 def createImages(match_dictionaries, games, players, player_names):
