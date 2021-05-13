@@ -1,0 +1,222 @@
+item;internal name;Internal Default recipe;id
+Aegis of the Immortal;item_aegis;;117
+Animal Courier;item_courier;;45
+Band of Elvenskin;item_boots_of_elves;;18
+Belt of Strength;item_belt_of_strength;;17
+Blade of Alacrity;item_blade_of_alacrity;;22
+Blades of Attack;item_blades_of_attack;;2
+Blight Stone;item_blight_stone;;240
+Blink Dagger;item_blink;;1
+Boots of Speed;item_boots;;29
+Bottle;item_bottle;;41
+Broadsword;item_broadsword;;3
+Chainmail;item_chainmail;;4
+Cheese;item_cheese;;33
+Circlet;item_circlet;;20
+Clarity;item_clarity;;38
+Claymore;item_claymore;;5
+Cloak;item_cloak;;31
+Crown;item_crown;;261
+Demon Edge;item_demon_edge;;51
+Dust of Appearance;item_dust;;40
+Eaglesong;item_eagle;;52
+Enchanted Mango;item_enchanted_mango;;216
+Energy Booster;item_energy_booster;;59
+Faerie Fire;item_faerie_fire;;237
+Flying Courier;item_flying_courier;;286
+Gauntlets of Strength;item_gauntlets;;13
+Gem of True Sight;item_gem;;30
+Ghost Scepter;item_ghost;;37
+Gloves of Haste;item_gloves;;25
+Healing Salve;item_flask;;39
+Helm of Iron Will;item_helm_of_iron_will;;6
+Hyperstone;item_hyperstone;;55
+Infused Raindrops;item_infused_raindrop;;265
+Iron Branch;item_branches;;16
+Javelin;item_javelin;;7
+Magic Stick;item_magic_stick;;34
+Mantle of Intelligence;item_mantle;;15
+Mithril Hammer;item_mithril_hammer;;8
+Morbid Mask;item_lifesteal;;26
+Mystic Staff;item_mystic_staff;;58
+Observer Ward;item_ward_observer;;42
+Ogre Axe;item_ogre_axe;;21
+Orb of Venom;item_orb_of_venom;;181
+Platemail;item_platemail;;9
+Point Booster;item_point_booster;;60
+Quarterstaff;item_quarterstaff;;10
+Quelling Blade;item_quelling_blade;;11
+Reaver;item_reaver;;53
+Refresher Shard;item_refresher_shard;;260
+Ring of Health;item_ring_of_health;;56
+Ring of Protection;item_ring_of_protection;;12
+Ring of Regen;item_ring_of_regen;;27
+Ring of Tarrasque;item_ring_of_tarrasque;;279
+Robe of the Magi;item_robe;;19
+Sacred Relic;item_relic;;54
+Sage's Mask;item_sobi_mask;;28
+Sentry Ward;item_ward_sentry;;43
+Shadow Amulet;item_shadow_amulet;;215
+Slippers of Agility;item_slippers;;14
+Smoke of Deceit;item_smoke_of_deceit;;188
+Staff of Wizardry;item_staff_of_wizardry;;23
+Stout Shield;item_stout_shield;;182
+Talisman of Evasion;item_talisman_of_evasion;;32
+Tango;item_tango;;44
+Tango (Shared);item_tango_single;;241
+Tome of Knowledge;item_tome_of_knowledge;;257
+Town Portal Scroll;item_tpscroll;;46
+Ultimate Orb;item_ultimate_orb;;24
+Vitality Booster;item_vitality_booster;;61
+Void Stone;item_void_stone;;57
+Wind Lace;item_wind_lace;;244
+Abyssal Blade;item_abyssal_blade;item_recipe_abyssal_blade;208
+Aeon Disk;item_aeon_disk;item_recipe_aeon_disk;256
+Aether Lens;item_aether_lens;item_recipe_aether_lens;232
+Aghanim's Blessing;item_ultimate_scepter_2;item_recipe_ultimate_scepter;271
+Aghanim's Scepter;item_ultimate_scepter;;108
+Aghanim's Shard;item_aghanims_shard;;609
+Arcane Boots;item_arcane_boots;item_recipe_arcane_boots;180
+Armlet of Mordiggian;item_armlet;item_recipe_armlet;151
+Assault Cuirass;item_assault;item_recipe_assault;112
+Battle Fury;item_bfury;item_recipe_bfury;145
+Black King Bar;item_black_king_bar;item_recipe_black_king_bar;116
+Blade Mail;item_blade_mail;item_recipe_blade_mail;127
+Bloodstone;item_bloodstone;item_recipe_bloodstone;121
+Bloodthorn;item_bloodthorn;item_recipe_bloodthorn;250
+Boots of Travel2;item_travel_boots_# (1-2);item_recipe_travel_boots;220
+Bracer;item_bracer;item_recipe_bracer;73
+Buckler;item_buckler;item_recipe_buckler;86
+Butterfly;item_butterfly;item_recipe_butterfly;139
+Crimson Guard;item_crimson_guard;item_recipe_crimson_guard;242
+Crystalys;item_lesser_crit;item_recipe_lesser_crit;149
+Daedalus;item_greater_crit;item_recipe_greater_crit;141
+Dagon2;item_dagon_# (1-5);item_recipe_dagon;104
+Desolator;item_desolator;item_recipe_desolator;168
+Diffusal Blade;item_diffusal_blade;item_recipe_diffusal_blade;174
+Diffusal Blade 2;item_diffusal_blade_2;item_recipe_diffusal_blade;
+Dragon Lance;item_dragon_lance;item_recipe_dragon_lance;236
+Drum of Endurance;item_ancient_janggo;item_recipe_ancient_janggo;185
+Echo Sabre;item_echo_sabre;item_recipe_echo_sabre;252
+Ethereal Blade;item_ethereal_blade;item_recipe_ethereal_blade;176
+Eul's Scepter of Divinity;item_cyclone;item_recipe_cyclone;100
+Eye of Skadi;item_skadi;item_recipe_skadi;160
+Force Staff;item_force_staff;item_recipe_force_staff;102
+Glimmer Cape;item_glimmer_cape;item_recipe_glimmer_cape;254
+Guardian Greaves;item_guardian_greaves;item_recipe_guardian_greaves;231
+Hand of Midas;item_hand_of_midas;item_recipe_hand_of_midas;65
+Headdress;item_headdress;item_recipe_headdress;94
+Heart of Tarrasque;item_heart;item_recipe_heart;114
+Heaven's Halberd;item_heavens_halberd;item_recipe_heavens_halberd;210
+Helm of the Dominator;item_helm_of_the_dominator;item_recipe_helm_of_the_dominator;164
+Hood of Defiance;item_hood_of_defiance;item_recipe_hood_of_defiance;131
+Hurricane Pike;item_hurricane_pike;item_recipe_hurricane_pike;263
+Iron Talon3;item_iron_talon;item_recipe_iron_talon;239
+Kaya;item_kaya;item_recipe_kaya;259
+Kaya and Sange;item_kaya_and_sange;;273
+Linken's Sphere;item_sphere;item_recipe_sphere;123
+Lotus Orb;item_lotus_orb;item_recipe_lotus_orb;226
+Maelstrom;item_maelstrom;item_recipe_maelstrom;166
+Magic Wand;item_magic_wand;item_recipe_magic_wand;36
+Manta Style;item_manta;item_recipe_manta;147
+Mask of Madness;item_mask_of_madness;item_recipe_mask_of_madness;172
+Medallion of Courage;item_medallion_of_courage;item_recipe_medallion_of_courage;187
+Mekansm;item_mekansm;item_recipe_mekansm;79
+Meteor Hammer;item_meteor_hammer;item_recipe_meteor_hammer;223
+Mjollnir;item_mjollnir;item_recipe_mjollnir;158
+Monkey King Bar;item_monkey_king_bar;item_recipe_monkey_king_bar;135
+Moon Shard;item_moon_shard;item_recipe_moon_shard;247
+Necronomicon2;item_necronomicon_# (1-3);item_recipe_necronomicon;106
+Null Talisman;item_null_talisman;item_recipe_null_talisman;77
+Nullifier;item_nullifier;item_recipe_nullifier;225
+Oblivion Staff;item_oblivion_staff;item_recipe_oblivion_staff;67
+Observer and Sentry Wards;item_ward_dispenser;item_recipe_ward_dispenser;218
+Octarine Core;item_octarine_core;item_recipe_octarine_core;235
+Orchid Malevolence;item_orchid;item_recipe_orchid;98
+Perseverance;item_pers;item_recipe_pers;69
+Phase Boots;item_phase_boots;item_recipe_phase_boots;50
+Pipe of Insight;item_pipe;item_recipe_pipe;90
+Poor Man's Shield3;item_poor_mans_shield;item_recipe_poor_mans_shield;71
+Power Treads;item_power_treads;item_recipe_power_treads;63
+Radiance;item_radiance;item_recipe_radiance;137
+Divine Rapier;item_rapier;item_recipe_rapier;133
+Refresher Orb;item_refresher;item_recipe_refresher;110
+Ring of Aquila3;item_ring_of_aquila;item_recipe_ring_of_aquila;212
+Ring of Basilius;item_ring_of_basilius;item_recipe_ring_of_basilius;88
+Rod of Atos;item_rod_of_atos;item_recipe_rod_of_atos;206
+Sange;item_sange;item_recipe_sange;162
+Sange and Yasha;item_sange_and_yasha;item_recipe_sange_and_yasha;154
+Satanic;item_satanic;item_recipe_satanic;156
+Scythe of Vyse;item_sheepstick;item_recipe_sheepstick;96
+Shadow Blade;item_invis_sword;item_recipe_invis_sword;152
+Shiva's Guard;item_shivas_guard;item_recipe_shivas_guard;119
+Silver Edge;item_silver_edge;item_recipe_silver_edge;249
+Skull Basher;item_basher;item_recipe_basher;143
+Solar Crest;item_solar_crest;item_recipe_solar_crest;229
+Soul Booster;item_soul_booster;item_recipe_soul_booster;129
+Soul Ring;item_soul_ring;item_recipe_soul_ring;178
+Spirit Vessel;item_spirit_vessel;item_recipe_spirit_vessel;267
+Tranquil Boots;item_tranquil_boots;item_recipe_tranquil_boots;214
+Urn of Shadows;item_urn_of_shadows;item_recipe_urn_of_shadows;92
+Vanguard;item_vanguard;item_recipe_vanguard;125
+Veil of Discord;item_veil_of_discord;item_recipe_veil_of_discord;190
+Vladmir's Offering;item_vladmir;item_recipe_vladmir;81
+Wraith Band;item_wraith_band;item_recipe_wraith_band;75
+Yasha;item_yasha;item_recipe_yasha;170
+Yasha and Kaya;item_yasha_and_kaya;;277
+Arcane Ring;item_arcane_ring;;349
+Broom Handle;item_broom_handle;;355
+Faded Broach;item_faded_broach;;375
+Iron Talon;item_iron_talon;;239
+Ironwood Tree;item_ironwood_tree;;304
+Keen Optic;item_keen_optic;;287
+Mango Tree;item_mango_tree;;328
+Ocean Heart;item_ocean_heart;;354
+Poor Man's Shield;item_poor_mans_shield;;71
+Royal Jelly;item_royal_jelly;;305
+Trusty Shovel;item_trusty_shovel;;356
+Clumsy Net;item_clumsy_net;;360
+Dragon Scale;item_dragon_scale;;358
+Essence Ring;item_essence_ring;;359
+Grove Bow;item_grove_bow;;288
+Claw;item_imp_claw;;334
+Shawl;item_nether_shawl;;357
+Philosopher's Stone;item_philosophers_stone;;290
+Pupil's Gift;item_pupils_gift;;306
+Ring of Aquila;item_ring_of_aquila;;212
+Vambrace;item_vambrace;;331
+Vampire Fangs;item_vampire_fangs;;297
+Craggy Coat;item_craggy_coat;;298
+Enchanted Quiver;item_enchanted_quiver;;361
+Greater Faerie Fire;item_greater_faerie_fire;;299
+Mind Breaker;item_mind_breaker;;309
+Orb of Destruction;item_orb_of_destruction;;378
+Paladin Sword;item_paladin_sword;;376
+Quickening Charm;item_quickening_charm;;289
+Repair Kit;item_repair_kit;;308
+Spider Legs;item_spider_legs;;326
+Telescope;item_spy_gadget;;336
+Titan Sliver;item_titan_sliver;;381
+Flicker;item_flicker;;335
+Havoc Hammer;item_havoc_hammer;;364
+Illusionist's Cape;item_illusionsts_cape;;363
+Magic Lamp;item_panic_button;;365
+Minotaur Horn;item_minotaur_horn;;377
+Ninja Gear;item_ninja_gear;;362
+Prince's Knife;item_princes_knife;;325
+Spell Prism;item_spell_prism;;311
+The Leveller;item_the_leveller;;379
+Timeless Relic;item_timeless_relic;;300
+Witless Shako;item_witless_shako;;330
+Apex;item_apex;;366
+Ballista;item_ballista;;367
+Book of the Dead;item_demonicon;;370
+Ex Machina;item_ex_machina;;374
+Fallen Sky;item_fallen_sky;;371
+Force Boots;item_force_boots;;291
+Mirror Shield;item_mirror_shield;;301
+Pirate Hat;item_pirate_hat;;372
+Seer Stone;item_seer_stone;;294
+Stygian Desolator;item_desolator_2;;292
+Trident;item_recipe_trident;;275
+Woodland Striders;item_woodland_striders;;368

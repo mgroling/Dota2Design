@@ -1,6 +1,9 @@
 from functions import *
 import tkinter as tk
 from PIL import Image, ImageTk
+import os
+import pandas as pd
+import numpy
 
 
 def refreshDropDownMenu(dropDownMenu, choices, var):
@@ -71,7 +74,7 @@ class Dota2DesignInterface:
         self.variableGame = tk.StringVar(self.root)
         self.variableGame.set(None)
         self.dropDownBoxGame = tk.OptionMenu(
-            self.root, self.variableGame, 1, 2, 3, 4, 5
+            self.root, self.variableGame, "1", "2", "3", "4", "5", "All"
         )
         self.dropDownBoxGame.config(bg="#141517")
         self.dropDownBoxGame.place(x=350, y=245, width=212, height=30)
@@ -79,7 +82,10 @@ class Dota2DesignInterface:
         photoButton2 = ImageTk.PhotoImage(Image.open("data/gui_img/Create Graphic.png"))
         loadMatchesButton = tk.Button(
             command=lambda: createImages(
-                entries[int(self.variableGame.get()) - 1].get()
+                self.match_dics,
+                self.variableGame.get(),
+                self.players.index(self.variablePlayer.get()),
+                self.players,
             ),
             image=photoButton2,
         )
@@ -93,12 +99,34 @@ class Dota2DesignInterface:
         self.match_dics = [getMatchDictionary(match_id) for match_id in match_ids]
         self.players = [getPlayerNames(dic) for dic in self.match_dics]
 
-        # TODO check if players are the same for all games
+        self.players = validatePlayers(self.players)
+        self.players.append("All")
 
-        refreshDropDownMenu(
-            self.dropDownBoxPlayer, self.players[0], self.variablePlayer
-        )
+        refreshDropDownMenu(self.dropDownBoxPlayer, self.players, self.variablePlayer)
 
 
 if __name__ == "__main__":
     Dota2DesignInterface()
+    # df = pd.read_csv("data/items_id.csv", sep=";").to_numpy()
+
+    # d = loadConfig("data/item_img/item_mapping.json")
+    # d = {int(k): v for k, v in d.items()}
+    # print(dic)
+    # res = dict((v, float(k)) for k, v in dic.items())
+    # print(d)
+    # saveConfig("data/item_img/item_mapping.json", d)
+
+    # item_mapping = {}
+    # for i in range(len(df)):
+    #     item_mapping[df[i][1][5:]] = df[i][3]
+
+    # saveConfig("data/item_img/item_mapping.json", item_mapping)
+
+    # 5990966909
+
+    # for path in os.listdir("data/item_img/"):
+    # img = Image.open("data/item_img/0.png")
+    # img = img.resize(
+    #     (90, 66), Image.ANTIALIAS
+    # )
+    # img.save("data/item_img/0.png")
