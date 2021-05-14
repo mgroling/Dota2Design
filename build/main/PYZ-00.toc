@@ -1,0 +1,2827 @@
+('I:\\Code\\Dota2Design\\build\\main\\PYZ-00.pyz',
+ [('os',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\os.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\selectors.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\signal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\string.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\stat.py',
+   'PYMODULE'),
+  ('win32com',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('win32com.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('winerror',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\getopt.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\token.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\bz2.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\socket.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\random.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\bisect.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\base64.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\optparse.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ssl.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\tty.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\netrc.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\runpy.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\shlex.py',
+   'PYMODULE'),
+  ('readline',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\readline.py',
+   'PYMODULE'),
+  ('pyreadline.console',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\console\\__init__.py',
+   'PYMODULE'),
+  ('pyreadline.console.console',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\console\\console.py',
+   'PYMODULE'),
+  ('pyreadline.console.event',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\console\\event.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('pyreadline.console.ansi',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\console\\ansi.py',
+   'PYMODULE'),
+  ('pyreadline.keysyms',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\keysyms\\__init__.py',
+   'PYMODULE'),
+  ('pyreadline.keysyms.keysyms',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\keysyms\\keysyms.py',
+   'PYMODULE'),
+  ('pyreadline.keysyms.common',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\keysyms\\common.py',
+   'PYMODULE'),
+  ('pyreadline.keysyms.ironpython_keysyms',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\keysyms\\ironpython_keysyms.py',
+   'PYMODULE'),
+  ('pyreadline.keysyms.winconstants',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\keysyms\\winconstants.py',
+   'PYMODULE'),
+  ('pyreadline.logger',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\logger.py',
+   'PYMODULE'),
+  ('logging.handlers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\logging\\handlers.py',
+   'PYMODULE'),
+  ('win32evtlogutil',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32\\lib\\win32evtlogutil.py',
+   'PYMODULE'),
+  ('smtplib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\smtplib.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\hmac.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\queue.py',
+   'PYMODULE'),
+  ('pyreadline.unicode_helper',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\unicode_helper.py',
+   'PYMODULE'),
+  ('pyreadline.py3k_compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\py3k_compat.py',
+   'PYMODULE'),
+  ('pyreadline.console.ironpython_console',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\console\\ironpython_console.py',
+   'PYMODULE'),
+  ('pyreadline',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\__init__.py',
+   'PYMODULE'),
+  ('pyreadline.release',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\release.py',
+   'PYMODULE'),
+  ('pyreadline.modes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\modes\\__init__.py',
+   'PYMODULE'),
+  ('pyreadline.modes.vi',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\modes\\vi.py',
+   'PYMODULE'),
+  ('pyreadline.lineeditor.history',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\lineeditor\\history.py',
+   'PYMODULE'),
+  ('pyreadline.lineeditor.lineobj',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\lineeditor\\lineobj.py',
+   'PYMODULE'),
+  ('pyreadline.lineeditor.wordmatcher',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\lineeditor\\wordmatcher.py',
+   'PYMODULE'),
+  ('pyreadline.modes.notemacs',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\modes\\notemacs.py',
+   'PYMODULE'),
+  ('pyreadline.modes.emacs',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\modes\\emacs.py',
+   'PYMODULE'),
+  ('pyreadline.modes.basemode',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\modes\\basemode.py',
+   'PYMODULE'),
+  ('pyreadline.error',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\error.py',
+   'PYMODULE'),
+  ('pyreadline.lineeditor',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\lineeditor\\__init__.py',
+   'PYMODULE'),
+  ('pyreadline.clipboard',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pyreadline.clipboard.win32_clipboard',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\clipboard\\win32_clipboard.py',
+   'PYMODULE'),
+  ('pyreadline.clipboard.no_clipboard',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\clipboard\\no_clipboard.py',
+   'PYMODULE'),
+  ('pyreadline.clipboard.ironpython_clipboard',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\clipboard\\ironpython_clipboard.py',
+   'PYMODULE'),
+  ('pyreadline.rlmain',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyreadline\\rlmain.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\ast.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\glob.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('commctrl',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('pywintypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\gzip.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('win32com.server',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\imp.py',
+   'PYMODULE'),
+  ('pythoncom',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\shutil.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('pyparsing',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\uuid.py',
+   'PYMODULE'),
+  ('netbios',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32\\lib\\netbios.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._typing',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('packaging.__about__',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources.py2_warn',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\py2_warn.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('win32com.shell.shellcon',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('pkg_resources.py31compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\py31compat.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.semaphore_tracker',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\semaphore_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\numbers.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('functions', 'I:\\Code\\Dota2Design\\src\\functions.py', 'PYMODULE'),
+  ('numpy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('psutil',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\__init__.py',
+   'PYMODULE'),
+  ('psutil._psaix',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_psaix.py',
+   'PYMODULE'),
+  ('psutil._pssunos',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_pssunos.py',
+   'PYMODULE'),
+  ('psutil._psbsd',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_psbsd.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('psutil._psosx',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_psosx.py',
+   'PYMODULE'),
+  ('psutil._pswindows',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_pswindows.py',
+   'PYMODULE'),
+  ('psutil._pslinux',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_pslinux.py',
+   'PYMODULE'),
+  ('psutil._psposix',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_psposix.py',
+   'PYMODULE'),
+  ('psutil._compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_compat.py',
+   'PYMODULE'),
+  ('dummy_threading',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\dummy_threading.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('psutil._common',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\psutil\\_common.py',
+   'PYMODULE'),
+  ('curses',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.dual',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\dual.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.financial',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\financial.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('photoshop',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\__init__.py',
+   'PYMODULE'),
+  ('photoshop.session',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\session.py',
+   'PYMODULE'),
+  ('photoshop.api.errors',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\errors.py',
+   'PYMODULE'),
+  ('comtypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\__init__.py',
+   'PYMODULE'),
+  ('comtypes._meta',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\_meta.py',
+   'PYMODULE'),
+  ('comtypes._comobject',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\_comobject.py',
+   'PYMODULE'),
+  ('comtypes.typeinfo',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\typeinfo.py',
+   'PYMODULE'),
+  ('comtypes.hresult',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\hresult.py',
+   'PYMODULE'),
+  ('comtypes.errorinfo',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\errorinfo.py',
+   'PYMODULE'),
+  ('comtypes.server',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\server\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.client',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\client\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.gen',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\gen\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.client._code_cache',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\client\\_code_cache.py',
+   'PYMODULE'),
+  ('comtypes.client._generate',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\client\\_generate.py',
+   'PYMODULE'),
+  ('comtypes.tools.tlbparser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\tools\\tlbparser.py',
+   'PYMODULE'),
+  ('comtypes.persist',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\persist.py',
+   'PYMODULE'),
+  ('comtypes.tools.typedesc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\tools\\typedesc.py',
+   'PYMODULE'),
+  ('comtypes.tools.typedesc_base',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\tools\\typedesc_base.py',
+   'PYMODULE'),
+  ('comtypes.tools',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\tools\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.client._events',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\client\\_events.py',
+   'PYMODULE'),
+  ('comtypes.connectionpoints',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\connectionpoints.py',
+   'PYMODULE'),
+  ('comtypes.client.dynamic',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\client\\dynamic.py',
+   'PYMODULE'),
+  ('comtypes.client.lazybind',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\client\\lazybind.py',
+   'PYMODULE'),
+  ('comtypes.automation',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\automation.py',
+   'PYMODULE'),
+  ('comtypes.safearray',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\safearray.py',
+   'PYMODULE'),
+  ('comtypes.tools.codegenerator',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\tools\\codegenerator.py',
+   'PYMODULE'),
+  ('comtypes.messageloop',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\messageloop.py',
+   'PYMODULE'),
+  ('comtypes._safearray',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\_safearray.py',
+   'PYMODULE'),
+  ('comtypes.npsupport',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\npsupport.py',
+   'PYMODULE'),
+  ('comtypes.GUID',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\GUID.py',
+   'PYMODULE'),
+  ('comtypes.patcher',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\comtypes\\patcher.py',
+   'PYMODULE'),
+  ('photoshop.api.enumerations',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\enumerations.py',
+   'PYMODULE'),
+  ('photoshop.api',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\__init__.py',
+   'PYMODULE'),
+  ('photoshop.api.text_item',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\text_item.py',
+   'PYMODULE'),
+  ('photoshop.api.text_font',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\text_font.py',
+   'PYMODULE'),
+  ('photoshop.api._core',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_core.py',
+   'PYMODULE'),
+  ('photoshop.api.solid_color',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\solid_color.py',
+   'PYMODULE'),
+  ('photoshop.api.colors.rgb',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\colors\\rgb.py',
+   'PYMODULE'),
+  ('photoshop.api.colors.lab',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\colors\\lab.py',
+   'PYMODULE'),
+  ('photoshop.api.colors.hsb',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\colors\\hsb.py',
+   'PYMODULE'),
+  ('photoshop.api.colors.gray',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\colors\\gray.py',
+   'PYMODULE'),
+  ('photoshop.api.colors.cmyk',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\colors\\cmyk.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\__init__.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options.tif',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\tif.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options.tag',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\tag.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options.psd',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\psd.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options.png',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\png.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options.pdf',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\pdf.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options.jpg',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\jpg.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options.gif',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\gif.py',
+   'PYMODULE'),
+  ('photoshop.api.save_options.bmp',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\save_options\\bmp.py',
+   'PYMODULE'),
+  ('photoshop.api.open_options',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\open_options\\__init__.py',
+   'PYMODULE'),
+  ('photoshop.api.open_options.eps',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\open_options\\eps.py',
+   'PYMODULE'),
+  ('photoshop.api.event_id',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\event_id.py',
+   'PYMODULE'),
+  ('photoshop.api.colors',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\colors\\__init__.py',
+   'PYMODULE'),
+  ('photoshop.api.application',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\application.py',
+   'PYMODULE'),
+  ('photoshop.api._text_fonts',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_text_fonts.py',
+   'PYMODULE'),
+  ('photoshop.api._preferences',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_preferences.py',
+   'PYMODULE'),
+  ('photoshop.api._notifiers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_notifiers.py',
+   'PYMODULE'),
+  ('photoshop.api._notifier',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_notifier.py',
+   'PYMODULE'),
+  ('photoshop.api._measurement_log',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_measurement_log.py',
+   'PYMODULE'),
+  ('photoshop.api._documents',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_documents.py',
+   'PYMODULE'),
+  ('photoshop.api._document',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_document.py',
+   'PYMODULE'),
+  ('photoshop.api._selection',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_selection.py',
+   'PYMODULE'),
+  ('photoshop.api._layerSets',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_layerSets.py',
+   'PYMODULE'),
+  ('photoshop.api._layerSet',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_layerSet.py',
+   'PYMODULE'),
+  ('photoshop.api._layers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_layers.py',
+   'PYMODULE'),
+  ('photoshop.api._layerComps',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_layerComps.py',
+   'PYMODULE'),
+  ('photoshop.api._layerComp',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_layerComp.py',
+   'PYMODULE'),
+  ('photoshop.api._documentinfo',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_documentinfo.py',
+   'PYMODULE'),
+  ('photoshop.api._channels',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_channels.py',
+   'PYMODULE'),
+  ('photoshop.api._channel',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_channel.py',
+   'PYMODULE'),
+  ('photoshop.api._artlayers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_artlayers.py',
+   'PYMODULE'),
+  ('photoshop.api._artlayer',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\_artlayer.py',
+   'PYMODULE'),
+  ('photoshop.api.action_reference',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\action_reference.py',
+   'PYMODULE'),
+  ('photoshop.api.action_descriptor',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\action_descriptor.py',
+   'PYMODULE'),
+  ('photoshop.api.action_list',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\action_list.py',
+   'PYMODULE'),
+  ('photoshop.api.constants',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\photoshop\\api\\constants.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('cffi',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\__init__.py',
+   'PYMODULE'),
+  ('cffi.error',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\error.py',
+   'PYMODULE'),
+  ('cffi.api',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\api.py',
+   'PYMODULE'),
+  ('cffi.recompiler',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\recompiler.py',
+   'PYMODULE'),
+  ('distutils.command.build_ext',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('distutils.command',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('distutils._msvccompiler',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('site',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
+   'PYMODULE'),
+  ('distutils.extension',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\extension.py',
+   'PYMODULE'),
+  ('distutils.core',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\core.py',
+   'PYMODULE'),
+  ('distutils.config',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\config.py',
+   'PYMODULE'),
+  ('cgi',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\cgi.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\configparser.py',
+   'PYMODULE'),
+  ('distutils.cmd',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\cmd.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.dist',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\dist.py',
+   'PYMODULE'),
+  ('distutils.versionpredicate',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.msvc9compiler',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('cffi.cffi_opcode',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\cffi_opcode.py',
+   'PYMODULE'),
+  ('cffi.verifier',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\verifier.py',
+   'PYMODULE'),
+  ('cffi.lock',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\lock.py',
+   'PYMODULE'),
+  ('cffi.pkgconfig',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\pkgconfig.py',
+   'PYMODULE'),
+  ('cffi.vengine_cpy',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\vengine_cpy.py',
+   'PYMODULE'),
+  ('cffi.vengine_gen',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\vengine_gen.py',
+   'PYMODULE'),
+  ('cffi.ffiplatform',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\ffiplatform.py',
+   'PYMODULE'),
+  ('setuptools',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.six',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('html.parser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\html\\parser.py',
+   'PYMODULE'),
+  ('_markupbase',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\_markupbase.py',
+   'PYMODULE'),
+  ('setuptools.extern',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools.namespaces',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\namespaces.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.py31compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\py31compat.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.install_scripts',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.install_scripts',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.bdist',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.py36compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\py36compat.py',
+   'PYMODULE'),
+  ('distutils.command.sdist',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.easy_install',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\command\\easy_install.py',
+   'PYMODULE'),
+  ('setuptools.package_index',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\package_index.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.sandbox',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\sandbox.py',
+   'PYMODULE'),
+  ('distutils.command.build_scripts',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.install',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\config.py',
+   'PYMODULE'),
+  ('setuptools.ssl_support',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\ssl_support.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._deprecation_warning',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\setuptools\\_deprecation_warning.py',
+   'PYMODULE'),
+  ('cffi.cparser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\cparser.py',
+   'PYMODULE'),
+  ('pycparser.lextab',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\lextab.py',
+   'PYMODULE'),
+  ('pycparser.yacctab',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\yacctab.py',
+   'PYMODULE'),
+  ('pycparser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.c_parser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\c_parser.py',
+   'PYMODULE'),
+  ('pycparser.ast_transforms',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\ast_transforms.py',
+   'PYMODULE'),
+  ('pycparser.plyparser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\plyparser.py',
+   'PYMODULE'),
+  ('pycparser.c_lexer',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\c_lexer.py',
+   'PYMODULE'),
+  ('pycparser.ply.lex',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\ply\\lex.py',
+   'PYMODULE'),
+  ('pycparser.ply.yacc',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\ply\\yacc.py',
+   'PYMODULE'),
+  ('pycparser.ply',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\ply\\__init__.py',
+   'PYMODULE'),
+  ('pycparser.c_ast',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pycparser\\c_ast.py',
+   'PYMODULE'),
+  ('cffi.commontypes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\commontypes.py',
+   'PYMODULE'),
+  ('cffi.model',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\cffi\\model.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\fractions.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('pipes',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\pipes.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PySide2',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PySide2\\__init__.py',
+   'PYMODULE'),
+  ('shiboken2',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\shiboken2\\__init__.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw2',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageDraw2.py',
+   'PYMODULE'),
+  ('PIL.ImagePath',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImagePath.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageDraw.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('bs4',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\bs4\\__init__.py',
+   'PYMODULE'),
+  ('bs4.element',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\bs4\\element.py',
+   'PYMODULE'),
+  ('bs4.formatter',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\bs4\\formatter.py',
+   'PYMODULE'),
+  ('soupsieve',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\soupsieve\\__init__.py',
+   'PYMODULE'),
+  ('soupsieve.css_parser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\soupsieve\\css_parser.py',
+   'PYMODULE'),
+  ('soupsieve.css_match',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\soupsieve\\css_match.py',
+   'PYMODULE'),
+  ('soupsieve.css_types',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\soupsieve\\css_types.py',
+   'PYMODULE'),
+  ('soupsieve.util',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\soupsieve\\util.py',
+   'PYMODULE'),
+  ('soupsieve.__meta__',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\soupsieve\\__meta__.py',
+   'PYMODULE'),
+  ('bs4.dammit',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\bs4\\dammit.py',
+   'PYMODULE'),
+  ('chardet',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\__init__.py',
+   'PYMODULE'),
+  ('chardet.version',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\version.py',
+   'PYMODULE'),
+  ('chardet.universaldetector',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\universaldetector.py',
+   'PYMODULE'),
+  ('chardet.sbcsgroupprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\sbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.langturkishmodel',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\langturkishmodel.py',
+   'PYMODULE'),
+  ('chardet.hebrewprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\hebrewprober.py',
+   'PYMODULE'),
+  ('chardet.charsetprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\charsetprober.py',
+   'PYMODULE'),
+  ('chardet.langhebrewmodel',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\langhebrewmodel.py',
+   'PYMODULE'),
+  ('chardet.langthaimodel',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\langthaimodel.py',
+   'PYMODULE'),
+  ('chardet.langbulgarianmodel',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\langbulgarianmodel.py',
+   'PYMODULE'),
+  ('chardet.langgreekmodel',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\langgreekmodel.py',
+   'PYMODULE'),
+  ('chardet.langcyrillicmodel',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\langcyrillicmodel.py',
+   'PYMODULE'),
+  ('chardet.sbcharsetprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\sbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.mbcsgroupprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\mbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.euctwprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\euctwprober.py',
+   'PYMODULE'),
+  ('chardet.mbcssm',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\mbcssm.py',
+   'PYMODULE'),
+  ('chardet.chardistribution',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\chardistribution.py',
+   'PYMODULE'),
+  ('chardet.jisfreq',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\jisfreq.py',
+   'PYMODULE'),
+  ('chardet.big5freq',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\big5freq.py',
+   'PYMODULE'),
+  ('chardet.gb2312freq',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\gb2312freq.py',
+   'PYMODULE'),
+  ('chardet.euckrfreq',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\euckrfreq.py',
+   'PYMODULE'),
+  ('chardet.euctwfreq',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\euctwfreq.py',
+   'PYMODULE'),
+  ('chardet.codingstatemachine',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\codingstatemachine.py',
+   'PYMODULE'),
+  ('chardet.mbcharsetprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\mbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.big5prober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\big5prober.py',
+   'PYMODULE'),
+  ('chardet.cp949prober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\cp949prober.py',
+   'PYMODULE'),
+  ('chardet.euckrprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\euckrprober.py',
+   'PYMODULE'),
+  ('chardet.gb2312prober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\gb2312prober.py',
+   'PYMODULE'),
+  ('chardet.eucjpprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\eucjpprober.py',
+   'PYMODULE'),
+  ('chardet.jpcntx',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\jpcntx.py',
+   'PYMODULE'),
+  ('chardet.sjisprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\sjisprober.py',
+   'PYMODULE'),
+  ('chardet.utf8prober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\utf8prober.py',
+   'PYMODULE'),
+  ('chardet.latin1prober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\latin1prober.py',
+   'PYMODULE'),
+  ('chardet.escprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\escprober.py',
+   'PYMODULE'),
+  ('chardet.escsm',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\escsm.py',
+   'PYMODULE'),
+  ('chardet.enums',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\enums.py',
+   'PYMODULE'),
+  ('chardet.charsetgroupprober',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\charsetgroupprober.py',
+   'PYMODULE'),
+  ('chardet.compat',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\chardet\\compat.py',
+   'PYMODULE'),
+  ('bs4.builder',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\bs4\\builder\\__init__.py',
+   'PYMODULE'),
+  ('bs4.builder._lxml',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\bs4\\builder\\_lxml.py',
+   'PYMODULE'),
+  ('bs4.builder._html5lib',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\bs4\\builder\\_html5lib.py',
+   'PYMODULE'),
+  ('bs4.builder._htmlparser',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\bs4\\builder\\_htmlparser.py',
+   'PYMODULE'),
+  ('interface', 'I:\\Code\\Dota2Design\\src\\interface.py', 'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'c:\\users\\jörg '
+   'gröling\\appdata\\local\\programs\\python\\python37\\lib\\tkinter\\constants.py',
+   'PYMODULE')])

@@ -5,8 +5,6 @@ import json
 import os
 import photoshop.api as ps
 from photoshop import Session
-import requests
-import pandas as pd
 import numpy as np
 
 
@@ -116,15 +114,13 @@ def convertSecToMin(seconds):
 
 
 def getItemTimings(player_dic):
-    mapping = loadConfig("data/item_img/item_mapping.json")
+    mapping = loadConfig(os.getcwd() + "/data/item_img/item_mapping.json")
 
     out = []
     for i in range(6):
         item_id = player_dic["item{}".format(i)]
-        print(item_id)
         if item_id != 0:
             item_name = mapping[str(float(item_id))]
-            print(item_name)
             if item_name in ["aegis", "cheese", "refresher_shard", "travel_boots"]:
                 out.append([item_id, np.inf])
             elif item_name == "ward_dispenser":
@@ -174,8 +170,9 @@ def createImages(match_dictionaries, games, players, player_names):
     else:
         players_to_iterate_over = [int(players)]
 
+    cwd = os.getcwd()
     app = ps.Application()
-    doc = app.open(os.getcwd() + "/player_performance_base.psd")
+    doc = app.open(cwd + "/player_performance_base.psd")
 
     elements = [
         "nickname",
@@ -195,19 +192,19 @@ def createImages(match_dictionaries, games, players, player_names):
         match_dictionaries[0]["radiant_team"]["name"].strip(" "),
         match_dictionaries[0]["dire_team"]["name"].strip(" "),
     )
-    if os.path.isfile(os.getcwd() + "/data/team_logos/{}.png".format(team1)):
+    if os.path.isfile(cwd + "/data/team_logos/{}.png".format(team1)):
         changeImage(
-            doc, "team_logo_1", os.getcwd() + "/data/team_logos/{}.png".format(team1)
+            doc, "team_logo_1", cwd + "/data/team_logos/{}.png".format(team1)
         )
     else:
-        changeImage(doc, "team_logo_1", os.getcwd() + "/data/team_logos/empty_logo.png")
+        changeImage(doc, "team_logo_1", cwd + "/data/team_logos/empty_logo.png")
 
-    if os.path.isfile(os.getcwd() + "/data/team_logos/{}.png".format(team2)):
+    if os.path.isfile(cwd + "/data/team_logos/{}.png".format(team2)):
         changeImage(
-            doc, "team_logo_2", os.getcwd() + "/data/team_logos/{}.png".format(team2)
+            doc, "team_logo_2", cwd + "/data/team_logos/{}.png".format(team2)
         )
     else:
-        changeImage(doc, "team_logo_2", os.getcwd() + "/data/team_logos/empty_logo.png")
+        changeImage(doc, "team_logo_2", cwd + "/data/team_logos/empty_logo.png")
 
     doc.ArtLayers["team_1"].TextItem.contents = team1
     doc.ArtLayers["team_2"].TextItem.contents = team2
@@ -218,9 +215,14 @@ def createImages(match_dictionaries, games, players, player_names):
 
     for i, game in enumerate(dics_to_iterate_over):
         doc.ArtLayers["matchID"].TextItem.contents = str(game["match_id"])
-        doc.ArtLayers["game"].TextItem.contents = games
+        doc.ArtLayers["game"].TextItem.contents = (
+            games if games != "All" else str(i + 1)
+        )
         doc.ArtLayers["duration"].TextItem.contents = (
-            convertSecToMin(match_dictionaries[int(games) - 1]["duration"]) + " MIN"
+            convertSecToMin(
+                match_dictionaries[int(games if games != "All" else i) - 1]["duration"]
+            )
+            + " MIN"
         )
         for player in players_to_iterate_over:
             player_game_dic = getPlayerInfo(game, player)
@@ -232,23 +234,23 @@ def createImages(match_dictionaries, games, players, player_names):
             changeImage(
                 doc,
                 "hero",
-                os.getcwd() + "/data/hero_img/{}.png".format(player_game_dic["heroId"]),
+                cwd + "/data/hero_img/{}.png".format(player_game_dic["heroId"]),
             )
 
             # update player image
             if os.path.isfile(
-                os.getcwd()
+                cwd
                 + "/data/player_img/{}.png".format(player_game_dic["nickname"])
             ):
                 changeImage(
                     doc,
                     "player",
-                    os.getcwd()
+                    cwd
                     + "/data/player_img/{}.png".format(player_game_dic["nickname"]),
                 )
             else:
                 changeImage(
-                    doc, "player", os.getcwd() + "/data/player_img/empty_player.png"
+                    doc, "player", cwd + "/data/player_img/empty_player.png"
                 )
 
             # update item images and timings
@@ -257,22 +259,22 @@ def createImages(match_dictionaries, games, players, player_names):
                 changeImage(
                     doc,
                     "item_{}".format(j + 1),
-                    os.getcwd() + "/data/item_img/{}.png".format(items[j][0]),
+                    cwd + "/data/item_img/{}.png".format(items[j][0]),
                 )
                 doc.ArtLayers["item_{}_time".format(j + 1)].TextItem.contents = str(
                     items[j][1]
                 )
             # update neutral item image
-            print("player, neutral item", player, player_game_dic["item_neutral"])
+            # print("player, neutral item", player, player_game_dic["item_neutral"])
             changeImage(
                 doc,
                 "item_neutral",
-                os.getcwd()
+                cwd
                 + "/data/item_img/{}.png".format(player_game_dic["item_neutral"]),
             )
 
             doc.saveAs(
-                os.getcwd()
+                cwd
                 + "/results/game_"
                 + str(i)
                 + "_player_"

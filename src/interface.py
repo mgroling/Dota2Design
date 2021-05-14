@@ -2,8 +2,6 @@ from functions import *
 import tkinter as tk
 from PIL import Image, ImageTk
 import os
-import pandas as pd
-import numpy
 
 
 def refreshDropDownMenu(dropDownMenu, choices, var):
@@ -14,12 +12,13 @@ def refreshDropDownMenu(dropDownMenu, choices, var):
 
 class Dota2DesignInterface:
     def __init__(self):
+        cwd = os.getcwd()
         self.root = tk.Tk()
         self.root.resizable(False, False)
         self.root.title("Dota2Design")
         canvas = tk.Canvas(self.root, width=600, height=400)
 
-        img = ImageTk.PhotoImage(Image.open("data/gui_img/Background.png"))
+        img = ImageTk.PhotoImage(Image.open(cwd + "/data/gui_img/Background.png"))
         canvas.background = img
         bg = canvas.create_image(0, 0, anchor=tk.NW, image=img)
 
@@ -43,7 +42,9 @@ class Dota2DesignInterface:
             )
             entries[-1].place(x=130, y=85 + i * 40, height=30, width=210)
 
-        photoButton1 = ImageTk.PhotoImage(Image.open("data/gui_img/Load Games.png"))
+        photoButton1 = ImageTk.PhotoImage(
+            Image.open(cwd + "/data/gui_img/Load Games.png")
+        )
         loadMatchesButton = tk.Button(
             command=lambda: self.getPlayerNames([entry.get() for entry in entries]),
             image=photoButton1,
@@ -79,7 +80,9 @@ class Dota2DesignInterface:
         self.dropDownBoxGame.config(bg="#141517")
         self.dropDownBoxGame.place(x=350, y=245, width=212, height=30)
 
-        photoButton2 = ImageTk.PhotoImage(Image.open("data/gui_img/Create Graphic.png"))
+        photoButton2 = ImageTk.PhotoImage(
+            Image.open(cwd + "/data/gui_img/Create Graphic.png")
+        )
         loadMatchesButton = tk.Button(
             command=lambda: createImages(
                 self.match_dics,
@@ -107,28 +110,3 @@ class Dota2DesignInterface:
 
 if __name__ == "__main__":
     Dota2DesignInterface()
-    # df = pd.read_csv("data/items_id.csv", sep=";").to_numpy()
-
-    #xxxx
-
-    # d = loadConfig("data/item_img/item_mapping.json")
-    # d = {int(k): v for k, v in d.items()}
-    # print(dic)
-    # res = dict((v, float(k)) for k, v in dic.items())
-    # print(d)
-    # saveConfig("data/item_img/item_mapping.json", d)
-
-    # item_mapping = {}
-    # for i in range(len(df)):
-    #     item_mapping[df[i][1][5:]] = df[i][3]
-
-    # saveConfig("data/item_img/item_mapping.json", item_mapping)
-
-    # 5990966909
-
-    # for path in os.listdir("data/item_img/"):
-    # img = Image.open("data/item_img/0.png")
-    # img = img.resize(
-    #     (90, 66), Image.ANTIALIAS
-    # )
-    # img.save("data/item_img/0.png")
