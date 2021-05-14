@@ -103,7 +103,8 @@ def getPlayerInfo(matchDictionary, id):
         "item3": player["item_3"],
         "item4": player["item_4"],
         "item5": player["item_5"],
-        "purchase_time": player["purchase_time"],
+        "purchase_time": player["first_purchase_time"],
+        "item_neutral": player["item_neutral"],
     }
 
 
@@ -120,13 +121,22 @@ def getItemTimings(player_dic):
     out = []
     for i in range(6):
         item_id = player_dic["item{}".format(i)]
+        print(item_id)
         if item_id != 0:
             item_name = mapping[str(float(item_id))]
-            if not item_name in ["aegis", "cheese", "refresher_shard"]:
-                time = player_dic["purchase_time"][item_name]
+            print(item_name)
+            if item_name in ["aegis", "cheese", "refresher_shard", "travel_boots"]:
+                out.append([item_id, np.inf])
+            elif item_name == "ward_dispenser":
+                time = min(
+                    player_dic["purchase_time"]["ward_observer"],
+                    player_dic["purchase_time"]["ward_sentry"],
+                )
                 out.append([item_id, time])
             else:
-                out.append([item_id, np.inf])
+                time = player_dic["purchase_time"][item_name]
+                out.append([item_id, time])
+
         else:
             out.append([item_id, np.inf])
 
@@ -138,6 +148,21 @@ def getItemTimings(player_dic):
             out[i][1] = "-"
 
     return out
+
+
+def getScore(match_dictionaries):
+    scores = {
+        match_dictionaries[0]["radiant_team"]["name"].strip(" "): 0,
+        match_dictionaries[0]["dire_team"]["name"].strip(" "): 0,
+    }
+    for match in match_dictionaries:
+        if match["radiant_win"]:
+            scores[match["radiant_team"]["name"].strip(" ")] += 1
+        else:
+            scores[match["radiant_team"]["name"].strip(" ")] += 1
+
+    return scores
+
 
 def createImages(match_dictionaries, games, players, player_names):
     if games == "All":
@@ -166,19 +191,30 @@ def createImages(match_dictionaries, games, players, player_names):
         "networth",
     ]
 
-    team1, team2 = match_dictionaries[0]["radiant_team"]["name"].replace(" ", ""), match_dictionaries[0]["dire_team"]["name"].replace(" ", "")
+    team1, team2 = (
+        match_dictionaries[0]["radiant_team"]["name"].strip(" "),
+        match_dictionaries[0]["dire_team"]["name"].strip(" "),
+    )
     if os.path.isfile(os.getcwd() + "/data/team_logos/{}.png".format(team1)):
-        changeImage(doc, "team_logo_1", os.getcwd() + "/data/team_logos/{}.png".format(team1))
+        changeImage(
+            doc, "team_logo_1", os.getcwd() + "/data/team_logos/{}.png".format(team1)
+        )
     else:
         changeImage(doc, "team_logo_1", os.getcwd() + "/data/team_logos/empty_logo.png")
 
     if os.path.isfile(os.getcwd() + "/data/team_logos/{}.png".format(team2)):
-        changeImage(doc, "team_logo_2", os.getcwd() + "/data/team_logos/{}.png".format(team2))
+        changeImage(
+            doc, "team_logo_2", os.getcwd() + "/data/team_logos/{}.png".format(team2)
+        )
     else:
         changeImage(doc, "team_logo_2", os.getcwd() + "/data/team_logos/empty_logo.png")
 
     doc.ArtLayers["team_1"].TextItem.contents = team1
     doc.ArtLayers["team_2"].TextItem.contents = team2
+
+    score = getScore(match_dictionaries)
+    doc.ArtLayers["team_1_score"].TextItem.contents = str(score[team1])
+    doc.ArtLayers["team_2_score"].TextItem.contents = str(score[team2])
 
     for i, game in enumerate(dics_to_iterate_over):
         doc.ArtLayers["matchID"].TextItem.contents = str(game["match_id"])
@@ -192,13 +228,30 @@ def createImages(match_dictionaries, games, players, player_names):
             for elem in elements:
                 doc.ArtLayers[elem].TextItem.contents = str(player_game_dic[elem])
 
-            # change hero image
+            # update hero image
             changeImage(
                 doc,
-                "Hero",
+                "hero",
                 os.getcwd() + "/data/hero_img/{}.png".format(player_game_dic["heroId"]),
             )
 
+            # update player image
+            if os.path.isfile(
+                os.getcwd()
+                + "/data/player_img/{}.png".format(player_game_dic["nickname"])
+            ):
+                changeImage(
+                    doc,
+                    "player",
+                    os.getcwd()
+                    + "/data/player_img/{}.png".format(player_game_dic["nickname"]),
+                )
+            else:
+                changeImage(
+                    doc, "player", os.getcwd() + "/data/player_img/empty_player.png"
+                )
+
+            # update item images and timings
             items = getItemTimings(player_game_dic)
             for j in range(len(items)):
                 changeImage(
@@ -209,6 +262,14 @@ def createImages(match_dictionaries, games, players, player_names):
                 doc.ArtLayers["item_{}_time".format(j + 1)].TextItem.contents = str(
                     items[j][1]
                 )
+            # update neutral item image
+            print("player, neutral item", player, player_game_dic["item_neutral"])
+            changeImage(
+                doc,
+                "item_neutral",
+                os.getcwd()
+                + "/data/item_img/{}.png".format(player_game_dic["item_neutral"]),
+            )
 
             doc.saveAs(
                 os.getcwd()
