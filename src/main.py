@@ -11,3 +11,8 @@ if __name__ == "__main__":
     # purchase = dic["first_purchase_time"]
 
     # print(name, purchase)
+
+    # print(dic["gold_spent"])
+
+    # for key in dic.keys():
+    #     print(key)

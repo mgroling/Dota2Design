@@ -91,7 +91,7 @@ def getPlayerInfo(matchDictionary, id):
         "deaths": player["deaths"],
         "gpm": player["gold_per_min"],
         "xpm": player["xp_per_min"],
-        "networth": player["net_worth"],
+        "networth": player["gold_spent"],
         "buildingDamage": player["tower_damage"],
         "heroDamage": player["hero_damage"],
         "heroHealing": player["hero_healing"],
@@ -277,7 +277,7 @@ def createImages(match_dictionaries, games, players, player_names):
             doc.saveAs(
                 cwd
                 + "/results/game_"
-                + str(i)
+                + str(i+1)
                 + "_player_"
                 + player_names[player]
                 + ".png",
