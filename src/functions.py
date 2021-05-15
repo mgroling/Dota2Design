@@ -121,6 +121,7 @@ def getItemTimings(player_dic):
         item_id = player_dic["item{}".format(i)]
         if item_id != 0:
             item_name = mapping[str(float(item_id))]
+            # print(item_name)
             if item_name in ["aegis", "cheese", "refresher_shard", "travel_boots"]:
                 out.append([item_id, np.inf])
             elif item_name == "ward_dispenser":
@@ -155,7 +156,7 @@ def getScore(match_dictionaries):
         if match["radiant_win"]:
             scores[match["radiant_team"]["name"].strip(" ")] += 1
         else:
-            scores[match["radiant_team"]["name"].strip(" ")] += 1
+            scores[match["dire_team"]["name"].strip(" ")] += 1
 
     return scores
 
