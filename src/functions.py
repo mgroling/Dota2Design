@@ -121,7 +121,6 @@ def getItemTimings(player_dic):
         item_id = player_dic["item{}".format(i)]
         if item_id != 0:
             item_name = mapping[str(float(item_id))]
-            # print(item_name)
             if item_name in ["aegis", "cheese", "refresher_shard", "travel_boots"]:
                 out.append([item_id, np.inf])
             elif item_name == "ward_dispenser":
@@ -131,8 +130,11 @@ def getItemTimings(player_dic):
                 )
                 out.append([item_id, time])
             else:
-                time = player_dic["purchase_time"][item_name]
-                out.append([item_id, time])
+                if item_name in player_dic["purchase_time"]:
+                    time = player_dic["purchase_time"][item_name]
+                    out.append([item_id, time])
+                else:
+                    out.append([item_id, np.inf])
 
         else:
             out.append([item_id, np.inf])
@@ -194,16 +196,12 @@ def createImages(match_dictionaries, games, players, player_names):
         match_dictionaries[0]["dire_team"]["name"].strip(" "),
     )
     if os.path.isfile(cwd + "/data/team_logos/{}.png".format(team1)):
-        changeImage(
-            doc, "team_logo_1", cwd + "/data/team_logos/{}.png".format(team1)
-        )
+        changeImage(doc, "team_logo_1", cwd + "/data/team_logos/{}.png".format(team1))
     else:
         changeImage(doc, "team_logo_1", cwd + "/data/team_logos/empty_logo.png")
 
     if os.path.isfile(cwd + "/data/team_logos/{}.png".format(team2)):
-        changeImage(
-            doc, "team_logo_2", cwd + "/data/team_logos/{}.png".format(team2)
-        )
+        changeImage(doc, "team_logo_2", cwd + "/data/team_logos/{}.png".format(team2))
     else:
         changeImage(doc, "team_logo_2", cwd + "/data/team_logos/empty_logo.png")
 
@@ -240,28 +238,29 @@ def createImages(match_dictionaries, games, players, player_names):
 
             # update player image
             if os.path.isfile(
-                cwd
-                + "/data/player_img/{}.png".format(player_game_dic["nickname"])
+                cwd + "/data/player_img/{}.png".format(player_game_dic["nickname"])
             ):
                 changeImage(
                     doc,
                     "player",
-                    cwd
-                    + "/data/player_img/{}.png".format(player_game_dic["nickname"]),
+                    cwd + "/data/player_img/{}.png".format(player_game_dic["nickname"]),
                 )
             else:
-                changeImage(
-                    doc, "player", cwd + "/data/player_img/empty_player.png"
-                )
+                changeImage(doc, "player", cwd + "/data/player_img/empty_player.png")
 
             # update item images and timings
             items = getItemTimings(player_game_dic)
             for j in range(len(items)):
-                changeImage(
-                    doc,
-                    "item_{}".format(j + 1),
-                    cwd + "/data/item_img/{}.png".format(items[j][0]),
-                )
+                if j == 0:
+                    changeImage(
+                        doc, "item", cwd + "/data/item_img/{}.png".format(items[j][0])
+                    )
+                else:
+                    changeImage(
+                        doc,
+                        "{}_item".format(j + 1),
+                        cwd + "/data/item_img/{}.png".format(items[j][0]),
+                    )
                 doc.ArtLayers["item_{}_time".format(j + 1)].TextItem.contents = str(
                     items[j][1]
                 )
@@ -270,14 +269,13 @@ def createImages(match_dictionaries, games, players, player_names):
             changeImage(
                 doc,
                 "item_neutral",
-                cwd
-                + "/data/item_img/{}.png".format(player_game_dic["item_neutral"]),
+                cwd + "/data/item_img/{}.png".format(player_game_dic["item_neutral"]),
             )
 
             doc.saveAs(
                 cwd
                 + "/results/game_"
-                + str(i+1)
+                + str(i + 1)
                 + "_player_"
                 + player_names[player]
                 + ".png",
