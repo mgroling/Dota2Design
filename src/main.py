@@ -1,0 +1,13 @@
+from functions_summarize import *
+from functions_photoshop import *
+
+if __name__ == "__main__":
+    pics, texts = getAfterGameStatistics(6227105229)
+
+    doc = openSession(os.getcwd() + "/After_Game_Statistics_25_10_2021.psd")
+
+    for key, value in pics.items():
+        changeImage(doc, key, value)
+
+    for key,value in texts.items():
+        changeText(doc, key, value)

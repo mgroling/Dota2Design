@@ -2,8 +2,6 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup as soup
 import json
 
-from numpy import mat
-
 
 def getLeagueDic(league_id):
     req = Request(

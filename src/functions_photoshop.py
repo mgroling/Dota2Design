@@ -17,9 +17,11 @@ def changeText(doc, layer_name, text):
     doc.ArtLayers[layer_name].TextItem.contents = str(text)
 
 
-def openSession(document_name):
+def openSession(path):
     app = ps.Application()
-    doc = app.open(os.getcwd() + "/" + document_name)
+    doc = app.open(path)
+
+    return doc
 
 
 def saveDocument(doc, path):
