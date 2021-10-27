@@ -50,7 +50,7 @@ def plotAdv(adv, path):
         for elem in (np.arange(np.floor(len(temp_adv) / step_x_ticks)) + 1)
         * step_x_ticks
     ]
-    label_x[0] = "0" + label_x[0] if len(label_x) <= 4 else label_x[0]
+    label_x[0] = ("0" + label_x[0]) if len(label_x[0]) <= 4 else label_x[0]
     ax.set_xticklabels(label_x, fontsize=15, fontname="Helvetica")
     ax.set_xlim(0, len(temp_adv))
 
